@@ -1,0 +1,18 @@
+{
+  "name": "text-file-extensions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "description": "common plain-text file extensions",
+  "scripts": {
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.19.1",
+    "prettier": "^3.6.2",
+    "prettier-config-holepunch": "^1.0.0"
+  },
+  "license": "Apache-2.0"
+}
