@@ -1,6 +1,6 @@
 # text-file-extensions
 
-> non-exhaustive Set of common plain-text file extensions
+> Set of common plain-text file extensions (JavaScript ecosystem)
 
 ```
 npm install text-file-extensions
