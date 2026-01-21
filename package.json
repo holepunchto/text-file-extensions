@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
-  "description": "common plain-text file extensions",
+  "description": "non-exhaustive Set of common plain-text file extensions",
   "scripts": {
     "lint": "prettier --check .",
     "format": "prettier --write .",

@@ -1,12 +1,12 @@
 # text-file-extensions
 
-> non-exhaustive list of common plain-text file extensions
+> non-exhaustive Set of common plain-text file extensions
 
 ```
 npm install text-file-extensions
 ```
 
-## API
+## Usage
 
 ```js
 const textFileExtensions = require('text-file-extensions')
@@ -14,9 +14,7 @@ const textFileExtensions = require('text-file-extensions')
 
 ```js
 const ext = 'txt'
-if (textFileExtensions.has(ext)) {
-  console.log('plain text!')
-}
+console.log(textFileExtensions.has(ext)) // true
 ```
 
 ## License
