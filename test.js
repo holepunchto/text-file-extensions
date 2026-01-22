@@ -14,4 +14,7 @@ test('non-text extensions', function (t) {
   t.ok(!textFileExtensions.includes('pdf'))
   t.ok(!textFileExtensions.includes('mp3'))
   t.ok(!textFileExtensions.includes('so'))
+  t.ok(!textFileExtensions.includes(''))
+  t.ok(!textFileExtensions.includes(undefined))
+  t.ok(!textFileExtensions.includes(null))
 })
