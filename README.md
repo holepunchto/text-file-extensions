@@ -9,6 +9,7 @@ npm install text-file-extensions
 ## Usage
 
 Values are stored in an array of lowercase strings without a leading dot, e.g. `txt`.
+
 For convenience, it also includes dotfiles such as `.gitignore` (stored as `gitignore`).
 
 ```js
