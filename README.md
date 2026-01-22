@@ -19,13 +19,15 @@ textFileExtensions.includes('txt') // true
 textFileExtensions.includes('pdf') // false
 ```
 
-For faster `O(1)` lookups use `Set` or use [is-text-file](https://github.com/holepunchto/is-text-file)
+For faster `O(1)` lookups use a `Set`:
 
 ```js
 const extensionsSet = new Set(textFileExtensions)
 extensionsSet.has('txt') // true
 extensionsSet.has('pdf') // false
 ```
+
+See also [is-text-file](https://github.com/holepunchto/is-text-file)
 
 ## License
 
