@@ -1,5 +1,5 @@
 {
-  "name": "text-file-extensions",
+  "name": "known-text-files",
   "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",

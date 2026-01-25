@@ -1,9 +1,9 @@
-# text-file-extensions
+# known-text-files
 
 > List of common plain-text file extensions
 
 ```
-npm install text-file-extensions
+npm install known-text-files
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ Values are stored in an array of lowercase strings without a leading dot, e.g. `
 For convenience, it also includes dotfiles such as `.gitignore` (stored as `gitignore`).
 
 ```js
-const textFileExtensions = require('text-file-extensions')
+const textFileExtensions = require('known-text-files')
 ```
 
 ```js
@@ -29,7 +29,7 @@ extensionsSet.has('txt') // true
 extensionsSet.has('pdf') // false
 ```
 
-See also [is-text-file](https://github.com/holepunchto/is-text-file).
+See also [is-text-file](https://github.com/holepunchto/is-text-file) for a high-level API.
 
 ## License
 
