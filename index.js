@@ -204,6 +204,7 @@ const extensions = [
   'properties',
   'props',
   'proto',
+  'pug',
   'ps1',
   'ps1xml',
   'psd1',
