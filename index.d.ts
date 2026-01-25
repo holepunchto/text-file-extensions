@@ -1,6 +1,6 @@
 /**
- * List of common plain-text file extensions
+ * Unified list of plain-text file extensions, filenames and dotfiles.
  */
-declare const textFileExtensions: string[]
+declare const knownTextFiles: string[]
 
-export = textFileExtensions
+export = knownTextFiles
