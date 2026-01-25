@@ -7,6 +7,8 @@ test('text extensions', function (t) {
   t.ok(textFileExtensions.includes('txt'))
   t.ok(textFileExtensions.includes('js'))
   t.ok(textFileExtensions.includes('mjs'))
+  t.ok(textFileExtensions.includes('dockerfile'))
+  t.ok(textFileExtensions.includes('gitignore'))
 })
 
 test('non-text extensions', function (t) {
