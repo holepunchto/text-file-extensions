@@ -1,6 +1,6 @@
 # known-text-files
 
-> Unified list of plain-text file extensions, filenames and dotfiles
+> Unified list of plain text file extensions, filenames and dotfiles
 
 ```
 npm install known-text-files
