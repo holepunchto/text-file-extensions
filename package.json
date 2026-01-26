@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "test": "node test.js"
+    "test": "brittle test.js"
   },
   "devDependencies": {
     "brittle": "^3.19.1",
