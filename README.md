@@ -26,7 +26,7 @@ const knownSet = new Set(knownTextFiles)
 knownSet.has('.txt') // true
 ```
 
-See also [is-text-file](https://github.com/holepunchto/is-text-file) for a high-level API.
+See also [is-text-filetype](https://github.com/holepunchto/is-text-filetype) for a high-level API.
 
 ## License
 
